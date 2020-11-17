@@ -1,4 +1,4 @@
-from .models import Filme, Serie
+from .models import *
 from rest_framework import viewsets
 from rest_framework import permissions
 from .serializers import FilmeSerializer, SerieSerializer
